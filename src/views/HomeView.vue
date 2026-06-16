@@ -147,16 +147,6 @@
             <p class="mt-4 text-slate-400">
               {{ project.description }}
             </p>
-
-            <div class="mt-6 flex flex-wrap gap-2">
-              <span
-                v-for="tag in project.tags"
-                :key="tag"
-                class="rounded-full border border-white/10 px-3 py-1 text-xs text-slate-300"
-              >
-                {{ tag }}
-              </span>
-            </div>
           </div>
         </div>
       </div>
